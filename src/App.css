@@ -49,6 +49,9 @@ h3 {
   font-size: 1.2rem;
   color: var(--mainYellow);
 }
+.cart-icon:hover {
+  background: var(--mainWhite);
+}
 
 .btn-black {
   background: transparent;

@@ -6,9 +6,9 @@ import "./App.css";
 import NavBar from "./components/NavBar";
 import ProductList from "./components/ProductList";
 import Details from "./components/Details";
-
 import Default from "./components/Default";
 import Modal from "./components/modal";
+import Cart from "./components/Cart";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={ProductList} />
         <Route path="/details" component={Details} />
-
+        <Route path="/cart" component={Cart} />
         <Route component={Default} />
       </Switch>
       <Modal />
